@@ -3,7 +3,7 @@
 import numpy as np
 
 #X = [x1, x2, ......., xm] is a 2D array
-#y = [y1, y2, .........., ym]
+#y = [y1, y2, .........., ym] where m = num_of_examples/samples
 
 class LinearRegressionGD:
   def __init__(self, learning_rate = 0.01, n_iterations = 1000):
