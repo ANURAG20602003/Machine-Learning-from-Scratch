@@ -1,1 +1,25 @@
+# importing necessary libraries
+import numpy as np
+import matplotlib.pyplot as plt
+
+class MultipleLinearRegression:
+  def __init__(self, learningRate = 0.01, nIterations = 1000):
+    self.learningRate = learningRate
+    self.nIterations = nIterations
+    self.weights = None
+    self.bias = None
+
+#This initializes our model with hyperparameters learningRate and nIterations
+
+ def fit(self, X, y): 
+   # Initializing the parameters
+   nSamples, nFeatures = X.shape
+   self.weights = np.zeroes(nFeatures)
+   self.bias = 0
+
+   for _ in range(self. nIterations):
+     yPredicted = self.predict(X)
+
+     dw = 
+
 
